@@ -1,0 +1,36 @@
+%% Retriever6 工作流程图 (Mermaid)
+%% 可以在 GitHub、支持 Mermaid 的编辑器或在线工具中查看
+%% 在线查看: https://mermaid.live/
+
+graph TB
+    Start([用户查询]) --> RelevanceCheck{相关性判断}
+    
+    RelevanceCheck -->|不相关| DirectAnswer[直接生成答案]
+    RelevanceCheck -->|与小米相关| Rewrite[问题改写]
+    
+    Rewrite --> QueryRouter{查询路由<br/>判断类型}
+    
+    QueryRouter -->|产品查询| ESRetriever[Elasticsearch检索<br/>产品信息]
+    QueryRouter -->|公司查询| FaissRetriever[Faiss检索<br/>公司信息]
+    
+    ESRetriever --> GenerateWithContext[基于检索生成答案]
+    FaissRetriever --> GenerateWithContext
+    
+    DirectAnswer --> End([结束])
+    GenerateWithContext --> End
+    
+    %% 样式定义
+    classDef startEnd fill:#90EE90,stroke:#333,stroke-width:2px
+    classDef decision fill:#FFD700,stroke:#333,stroke-width:2px
+    classDef process fill:#87CEEB,stroke:#333,stroke-width:2px
+    classDef retriever fill:#FFA500,stroke:#333,stroke-width:2px
+    classDef generate fill:#FF69B4,stroke:#333,stroke-width:2px
+    
+    class Start,End startEnd
+    class RelevanceCheck,QueryRouter decision
+    class Rewrite process
+    class ESRetriever,FaissRetriever retriever
+    class DirectAnswer,GenerateWithContext generate
+
+
+
