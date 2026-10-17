@@ -77,7 +77,20 @@ pnpm dev
 
 ## 验证范围
 
-项目保留的 `tests/unit_tests/test_configuration.py` 和集成测试来自原始模板，引用了当前不存在的 `agent.graph`，不能代表 RAG 功能已通过验证。完整问答验证需要本地模型、匹配的 FAISS 索引、Elasticsearch 数据及有效的服务商凭据。
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[dev,test]"
+.\.venv\Scripts\python.exe -m ruff check .
+.\.venv\Scripts\python.exe -m mypy main.py --follow-imports=skip --ignore-missing-imports
+.\.venv\Scripts\python.exe -m pytest tests -q
+```
+
+GitHub Actions 对 Python 3.11/3.12 执行代码检查、API 入口类型检查和 20 个测试，覆盖图入口配置、凭据检查、会话长度限制、历史隔离、HTTP 问答、清空和异常回滚。RAG 图由测试替身替换，不读取开发者 `.env`，不调用付费模型或检索服务。
+
+Python 检查采用 E/F/I 正确性与导入规则，保留示例中的控制台输出和中文教学注释；类型检查限定在 FastAPI 入口，不把历史实验图宣称为已通过严格类型检查。原模板引用不存在的 `agent.graph` 的测试已替换，旧的每日集成测试工作流已合并进推送时执行的 CI。
+
+前端工作流位于根目录 `.github/workflows/frontend.yml`，执行依赖锁定安装、lint、TypeScript 检查和生产构建。也可在 `agent-chat-ui` 运行 `pnpm lint`、`pnpm typecheck` 和 `pnpm build`；构建使用的 Google Fonts 下载需要网络连接。
+
+完整 RAG 问答验证仍需要本地模型、匹配的 FAISS 索引、Elasticsearch 数据及有效服务商凭据；上述自动检查不代表真实模型和检索服务已端到端验证。
 
 ## 来源与许可
 

@@ -5,6 +5,7 @@ create_retriever_tool 简单示例
 """
 
 import os
+
 from dotenv import load_dotenv
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -161,8 +162,9 @@ print("\n" + "="*80)
 print("方式五：与 LLM 结合使用")
 print("="*80 + "\n")
 
-from langchain_openai import ChatOpenAI
 import os
+
+from langchain_openai import ChatOpenAI
 
 os.environ["OPENAI_API_KEY"] = os.environ["DASHSCOPE_API_KEY"]
 

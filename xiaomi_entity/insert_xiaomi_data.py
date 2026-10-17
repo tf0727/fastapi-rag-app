@@ -1,8 +1,10 @@
+import json
 import os
+
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
-import json
 from tqdm import tqdm
+
 
 class XiaomiDataIndexer:
     def __init__(self, model_path='../bge-base-zh-v1.5', es_host="http://localhost:9200", index_name="xiaomi_products"):
@@ -248,7 +250,7 @@ class XiaomiDataIndexer:
                 print(f"\n导入第 {i + 1} 条数据时出错: {e}")
                 print(f"问题数据: {item.get('商品名称', 'Unknown')}")
         
-        print(f"\n数据导入完成！")
+        print("\n数据导入完成！")
         print(f"成功: {success_count} 条")
         print(f"失败: {fail_count} 条")
         print(f"总计: {len(data)} 条")
@@ -260,14 +262,14 @@ class XiaomiDataIndexer:
         try:
             # 获取索引统计信息
             count = self.es.count(index=self.index_name)
-            print(f"\n索引验证:")
+            print("\n索引验证:")
             print(f"索引名称: {self.index_name}")
             print(f"文档总数: {count['count']}")
             
             # 获取一个示例文档
             sample = self.es.search(index=self.index_name, body={"size": 1})
             if sample['hits']['hits']:
-                print(f"\n示例文档:")
+                print("\n示例文档:")
                 doc = sample['hits']['hits'][0]['_source']
                 print(f"商品名称: {doc.get('商品名称')}")
                 print(f"类别: {doc.get('类别')}")

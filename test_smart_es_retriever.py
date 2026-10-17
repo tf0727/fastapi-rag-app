@@ -7,6 +7,7 @@
 
 from src.agent.retriever7 import elasticsearch_retriever_tool
 
+
 def test_queries():
     """测试不同类型的查询"""
     

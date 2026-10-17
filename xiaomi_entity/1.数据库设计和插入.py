@@ -1,6 +1,7 @@
+import json
+
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
-import json
 
 model = SentenceTransformer('../9.embedding语义模型微调/微调/new_bge-base-zh-v1.5', device='cuda')
 es = Elasticsearch("http://localhost:9200")

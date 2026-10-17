@@ -1,8 +1,8 @@
 import os
+
 from dotenv import load_dotenv
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
-import json
 
 # 模块自身加载 .env，避免依赖框架注入顺序导致 ELASTICSEARCH_URL 读不到
 load_dotenv(override=True)
@@ -579,7 +579,7 @@ def main():
         print("-" * 80)
         
         # 混合搜索
-        results = searcher.hybrid_multi_embedding_search(query, size=3)
+        searcher.hybrid_multi_embedding_search(query, size=3)
 
 
     # 3. 价格范围搜索

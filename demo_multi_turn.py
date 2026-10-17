@@ -4,8 +4,8 @@
 这个脚本演示了如何使用 ConversationManager 实现多轮对话
 """
 
-import sys
 import os
+import sys
 
 # 添加项目路径到 sys.path
 project_root = os.path.dirname(os.path.abspath(__file__))

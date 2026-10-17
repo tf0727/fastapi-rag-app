@@ -22,6 +22,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["mypy>=1.11.1", "ruff>=0.6.1"]
+test = ["pytest>=8.3.5", "httpx>=0.27"]
 server = ["langgraph-cli[inmem]>=0.4"]
 
 [build-system]
@@ -39,28 +40,25 @@ packages = ["agent", "xiaomi_entity"]
 "*" = ["py.typed"]
 
 [tool.ruff]
-lint.select = [
-    "E",    # pycodestyle
-    "F",    # pyflakes
-    "I",    # isort
-    "D",    # pydocstyle
-    "D401", # First line should be in imperative mood
-    "T201",
-    "UP",
-]
-lint.ignore = [
-    "UP006",
-    "UP007",
-    # We actually do want to import from typing_extensions
-    "UP035",
-    # Relax the convention by _not_ requiring documentation for every function parameter.
-    "D417",
-    "E501",
-]
+target-version = "py311"
+# Local document automation is not part of this Python application.
+extend-exclude = ["fill_forms.py"]
+
+[tool.ruff.lint]
+# Check correctness and imports. Console output and Chinese teaching docstrings
+# are intentional in the retained examples, rather than CI failures.
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
 [tool.ruff.lint.per-file-ignores]
-"tests/*" = ["D", "UP"]
-[tool.ruff.lint.pydocstyle]
-convention = "google"
+# These entry points initialize dotenv or sys.path before backend imports.
+"add_mineru_document.py" = ["E402"]
+"demo_multi_turn.py" = ["E402"]
+"demo_simple_retriever.py" = ["E402"]
+"src/agent/rag_agent*.py" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [dependency-groups]
 dev = [

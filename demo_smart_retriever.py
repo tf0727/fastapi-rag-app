@@ -6,6 +6,7 @@
 
 from src.agent.retriever7 import ask_question
 
+
 def main():
     print("\n" + "="*100)
     print("智能 Elasticsearch 检索工具 - 快速演示")

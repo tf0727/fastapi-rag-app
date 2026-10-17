@@ -1,18 +1,19 @@
 import os
+import re
 import shutil
 from pathlib import Path
-import re
 from typing import List
+
 from dotenv import load_dotenv
 
 # 加载环境变量
 load_dotenv()
 
 # 导入LangChain相关包
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # 配置参数
 PDF_OUT_DIR = "xiaomi-ESG"
@@ -228,7 +229,7 @@ def main():
         add_to_vectorstore(documents)
         
         print("处理完成！")
-        print(f"总结:")
+        print("总结:")
         print(f"   - 复制图片: {len(copied_images)} 张")
         print(f"   - 文档分块: {len(documents)} 个")
         print(f"   - 向量库路径: {VECTORSTORE_PATH}")

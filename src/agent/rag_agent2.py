@@ -1,18 +1,17 @@
 from __future__ import annotations
 
 import os
-from typing import Literal
+
 from dotenv import load_dotenv
+
 load_dotenv(override=True)
-from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_core.messages import HumanMessage
 from langchain_core.tools import create_retriever_tool
-from langgraph.graph import MessagesState, StateGraph, START, END
-from langgraph.prebuilt import ToolNode, tools_condition
-from pydantic import BaseModel, Field
-from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
-from typing_extensions import TypedDict
+from langchain_openai import ChatOpenAI
+from langgraph.graph import START, MessagesState, StateGraph
+from langgraph.prebuilt import ToolNode
 
 api_key = os.environ["DASHSCOPE_API_KEY"]
 os.environ["OPENAI_API_KEY"] = api_key
@@ -32,7 +31,7 @@ class AgentState(MessagesState):
 def rewrite_question(state: AgentState):
     question = state["messages"][-1].content
 
-    system_prompt = f"""你的任务是改写用户的输入，使其更加清晰、具体和易于理解，表达更准确，便于检索相关信息。要求如下：
+    system_prompt = """你的任务是改写用户的输入，使其更加清晰、具体和易于理解，表达更准确，便于检索相关信息。要求如下：
 1. 如果用户输入的是疑问句，需要改写为意图明确的陈述句；
 2. 保持用户的核心意图不变，但使其更加明确和结构化。
 样例如下：
@@ -71,8 +70,6 @@ def generate_query_or_respond(state:AgentState):
 
 
 def grade_documents(state: AgentState):
-    question = state["messages"][0].content  # original user question
-    ctx = state["messages"][-1].content      # retriever output
     # prompt = GRADE_PROMPT.format(question=question, context=ctx)
     # result = grader_model.with_structured_output(GradeDoc).ainvoke([
     #     {"role": "user", "content": prompt}

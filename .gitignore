@@ -173,6 +173,7 @@ uv.lock
 node_modules/
 .pnpm-store/
 .next/
+*.tsbuildinfo
 
 # Local tools, generated documents, and scratch files
 /ngrok.exe

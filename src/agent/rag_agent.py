@@ -2,14 +2,16 @@ from __future__ import annotations
 
 import os
 from typing import Literal
+
 from dotenv import load_dotenv
+
 load_dotenv(override=True)
-from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_core.tools import create_retriever_tool
-from langgraph.graph import MessagesState, StateGraph, START, END
-from langgraph.prebuilt import ToolNode, tools_condition
+from langchain_openai import ChatOpenAI
+from langgraph.graph import END, START, MessagesState, StateGraph
+from langgraph.prebuilt import ToolNode
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------------------------

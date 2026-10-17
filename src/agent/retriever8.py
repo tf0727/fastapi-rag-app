@@ -6,18 +6,20 @@ create_retriever_tool 使用示例
 """
 
 from __future__ import annotations
+
 import os
+
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from langchain_core.tools import create_retriever_tool, tool
-from langgraph.graph import MessagesState, StateGraph, START, END
-from langgraph.prebuilt import ToolNode
-from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
+from langgraph.graph import END, START, MessagesState, StateGraph
+
 try:
     from xiaomi_entity.query_xiaomi_products import searcher
-except:
+except ImportError:
     from query_xiaomi_products import searcher
 
 # 加载环境变量

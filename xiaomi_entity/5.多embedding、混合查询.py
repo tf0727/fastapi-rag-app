@@ -1,6 +1,7 @@
 from elasticsearch import Elasticsearch
 from sentence_transformers import SentenceTransformer
 
+
 class MultiEmbeddingSearch:
     def __init__(self, model_path='../bge-base-zh-v1.5', host="http://localhost:9200", index_name="drugs"):
         self.es = Elasticsearch(host)
