@@ -1,0 +1,1434 @@
+[
+    {
+        "type": "text",
+        "text": "超智能服务赋能企业数智化升级",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Super Intelligence for X ",
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/ffdbcb8c36688f2cc4bbb33955d908f08818b2f6cd31b02a7c036924997e8410.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CATALOGUE 04 ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "01 核心技术能力  \n02 定制化解决方案  \n03 全流程服务体系  \n数据安全控制体系  \n05 技术持续创新  \n06 服务实施保障  \n07 案例介绍",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "01 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "核心技术能力",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前沿算法与模型架构",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Transformer架构优化",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "基于自注意力机制的Transformer模型在自然语言处理（NLP）领域表现卓越，通过优化多头注意力、位置编码等模块，显著提升模型对长序列数据的处理能力，同时降低计算复杂度。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "结合视觉、语音、文本等多模态数据的联合建模能力，通过跨模态对齐和特征交互技术，实现更精准的语义理解与生成，例如CLIP、DALL·E等模型的突破性应用。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "小样本学习与迁移学习",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "多模态融合技术",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/a0ebab89152e540a8b81063338186df745a4a184ac21ee322c5f3b6f1a9fc909.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "通过元学习（Meta-Learning）和预训练-微调范式，使模型在数据稀缺场景下仍能快速适应新任务，显著降低标注成本并提升泛化性能。",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/51356bda672765b3368005ab176b67374339b77e617aed26cc3dadd7f5979c09.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "MACHINE LEARNING ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "高效能开发平台建设",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "分布式训练框架",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "支持千亿级参数模型的并行训练，通过混合精度计算、梯度压缩、流水线并行等技术，将训练效率提升10倍以上，同时保障模型收敛稳定性。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "自动化机器学习 (AutoML)",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "集成神经架构搜索（NAS）、超参数优化（HPO）等工具，实现从数据预处理到模型部署的全流程自动化，降低AI开发门槛并缩短迭代周期。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/cc6b40cebb149176e1dde77e261b4955b3b898af99e8a7985525690a683fc47e.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "端到端部署工具链",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "提供模型量化、剪枝、编译优化等轻量化技术，适配边缘设备与云端推理，支持TensorRT、ONNX等工业级标准，实现毫秒级响应与高吞吐服务。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "大模型技术深度积累",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "M ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "千亿级参数模型实战经验",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在GPT-3、PaLM等超大模型训练中积累的工程化经验，涵盖数据清洗、分布式训练容错、显存优化等关键技术，确保模型训练成功率与稳定性。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "领域自适应技术",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "通过领域预训练（Domain-Specific Pretraining）和提示学习（Prompt Tuning），使大模型快速适配金融、医疗、法律等垂直场景，解决专业术语与长尾需求问题。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "安全与伦理保障",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "构建大模型的偏见检测、毒性过滤、输出可控性等安全机制，结合差分隐私（DP）和联邦学习(FL），确保数据隐私与模型合规性。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "02 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "定制化解决方案",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "行业垂直场景洞察",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "深度需求分析",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "通过行业白皮书、企业实地调研、用户行为数据建模等方式，构建覆盖金融、医疗、制造等领域的场景知识图谱，精准识别业务流程中的AI赋能点。例如在医疗领域已实现影像识别准确率提升 $3 0 \\%$ 、诊断效率提升 $5 0 \\%$ 的突破性案例。",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/59848f104b6eb9a974b720a64843867b6fb9abb843e494ccf05f505c69731ea3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "场景痛点解构",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "建立\"技术-业务\"双维度评估矩阵，针对金融业反欺诈场景中的实时响应延迟、制造业质检中的微小缺陷识别等核心痛点，开发具备毫米级检测精度的专用模型架构。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "生态协同创新 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "与行业头部企业共建联合实验室，在自动驾驶领域已形成包含高精地图建模、多传感器融合、决策规划在内的12个标准场景解决方案库。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "模型个性化定制开发",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "模块化架构设计 ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "采用\"基础层-适配层-应用层\"三级架构，支持从百亿参数通用大模型到十亿级行业专用模型的灵活裁剪。某能源企业案例中，通过迁移学习技术使模型训练周期从3个月缩短至2周。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "全流程调优服务",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "提供从数据清洗、特征工程到超参数优化的全链条服务，在电商推荐系统项目中实现点击率提升 $2 2 \\%$ 的同时降低计算资源消耗 $3 5 \\%$ o",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "私有化部署方案",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "基于联邦学习框架开发的安全计算方案，满足金融客户数据不出域的要求，某银行客户风险管理模型已通过等保三级认证。",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/97b983a27018b687f8b1619d6bc20f349d5b5ea4d3ff7bcd22de7ccd8810b4de.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "价值驱动型设计原则",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "ROI量化评估体系",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "敏捷迭代机制",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "持续运营保障 ",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "构建包含效率提升、成本节约、收入增长等6大维度18项指标的评估模型，在智能制造领域帮助客户实现单生产线年效益提升超500万元的量化价值。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "采用MVP（最小可行产品）开发模式，某城市治理项目从需求确认到试点上线仅用45天，快速验证了交通流量预测模型的实用价值。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "建立包含模型监控、数据迭代、效果优化的全生命周期管理体系，确保AI应用持续产生价值，某零售客户推荐系统已实现连续12个月的精准度稳定提升。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/834d0d1547a20048462c3851c68be0d3d7324daab9c796c72193117720ddaa31.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/2c5fe63b51331ab018e62d5eacff3968acf6cf090ad460568a1a1e3635b04e25.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/de54fff0c41c3a8d9f3094b1d2e365e18444ddcbe206092e799119361e84e521.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "03 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "全流程服务体系",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "服务范围 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "我们提供AI使用的全过程服务支持，涵盖从业务分析，AI应用开发，企业AI内训等的整个过程。 我们致力于将人工智能技术应用于企业的各种业务场景，以提高运营效率、优化决策、提升客户体验等",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/9bcf8cb0a3ca653e4e6a2583301b9cc83fd55f104ebbd1534b07e80f3ae5e730.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "AI技术评估",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "由专业RPA开发团队协助进行业务场景的RPA技术评估及验证服务。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "4 ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "AI应用实施",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "提供AI实施服务，包括AI应用设计、AI模型开发、部署、数据导入和测试。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "2 ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "AI咨询 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "由专业咨询顾问协助客户梳理业务痛点及AI应用实施的可能性，确定AI应用推进策略。",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/7b69fedc9a68346a96d4058741c153cb3f99019102cf4d033fe3f0acfda685bd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5 ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "技术支持",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "由专业服务团队协助客户建立AI应用及技术支持中心，提供1至3级技术支持。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "B ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "概念证明",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "提供POC测试来评估AI在实际业务场景中的实现方案及效果。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "其它相关服务",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "我们提供企业AI技术培训服务、流程运营和优化服务、信息系统及数据中台建设等IT基础服务。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "需求分析与数据治理",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "深度业务场景拆解",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "通过多维度访谈、流程建模和KPI映射，精准识别企业痛点和AI落地场景，确保技术方案与业务目标高度对齐，避免资源浪费。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "多模态数据治理",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "建立涵盖数据采集、清洗、标注、增强的标准化流水线，运用差分隐私和联邦学习技术解决数据孤岛问题，确保训练数据的合规性与代表性。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "可量化价值评估",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "采用ROI预测模型和SWOT分析框架，对AI项目实施前后的成本效益、风险系数进行量化评估，为决策提供数据支撑。",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/8b0e6717d49570650e4e90f5e09bfebcf54986b1ac999a5fa1ae34ade0c16b74.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "模型训练与系统集成",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "分布式训练架构",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "基于Kubernetes的弹性计算集群支持千亿参数模型训练，结合自动混合精度（AMP）和梯度压缩技术，实现训练效率提升 $3 0 0 \\%$ 以上。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "跨平台系统适配",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "通过ONNX中间表示层和容器化部署方案，实现PyTorch/TensorFlow等框架模型与ERP、MES等工业系统的无缝对接，支持边缘-云端协同推理。",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/3676196bacd75e0dbd6646e0e3547c5b8bf6bb6f036f87837c98444f8cf7e7cc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "3 安全增强设计 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "集成同态加密和模型水印技术，在模型推理阶段实施动态权限校验和对抗样本检测，满足金融、医疗等场景的等保三级要求。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "全生命周期运维优化",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "智能监控告警体系",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "部署Prometheus+Grafana监控栈，实时追踪模型精度衰减、数据漂移等指标，通过贝叶斯优化自动触发retraining流程。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "持续交付管道",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "构建CI/CD自动化测试平台，支持AB测试、灰度发布等策略，确保模型迭代过程零宕机，版本回滚时间控制在5分钟以内。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "知识沉淀机制",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "建立模型卡片（ModelCards）和系统架构图谱，记录超参数配置、训练数据集特征等元数据，实现技术资产的可继承性与审计追踪。",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/2bce9116bf7f237c90b8297a1e45661ec7130a7ec19461a3f7b02755f628b716.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "04 ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "数据安全控制体系",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "合规性管理框架",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "国际标准对齐",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "严格遵循ISO/IEC 42001、GDPR等国际数据保护法规，建立覆盖数据采集、存储、处理、销毁全生命周期的合规审计机制，确保AI系统开发符合全球 $4 0 +$ 国家/地区的隐私保护要求。",
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/907a1d795ff23a81c5cb14bb80f46144f43c77ef1781fd111c80c1bf65fea690.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/a0cd840122e57a5578259c1c3b46862c166c0519774913fd112b9370c0d5fb8b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "动态合规监测 ",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "部署智能合规监测系统，实时追踪全球数据保护立法更新 (如欧盟AI法案、中国数据安全法），自动生成差距分析报告并触发合规流程优化，降低法律违规风险。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "多维度认证体系",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "通过ISO27001信息安全管理体系认证、SOC2Type I审计等第三方评估，构建包含技术合规、流程合规、人员合规的三层认证矩阵。",
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/bee1375e67927f6bfd14a693be49ea9043ca7307fd826ef62355b95c489ccc35.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "数据加密与脱敏技术",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "量子级加密防护 ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "采用AES-256、同态加密等前沿技术，对训练数据、模型参数进行端到端加密，即使在数据传输和共享过程中也能保持密文状态，防御中间人攻击和侧信道分析。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "智能脱敏引擎",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "基于NLP和深度学习开发的动态脱敏系统，可自动识别敏感字段（如身份证号、医疗记录），并按照业务场景需求实施差异化脱敏策略（掩码、泛化、差分隐私保护）。",
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "images/94819b808f1cf1010241601e0d97b46ed7c251115b433fd54259ff09e966635b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "密钥生命周期管理",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "通过硬件安全模块(HSM)实现加密密钥的生成、轮换、撤销全自动化管理，支持国密SM4算法和FIPS140-2 Level3标准，确保密钥存储安全性提升 $3 0 0 \\%$ ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "私有化部署支持方案",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "i ",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "混合云架构设计",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "提供容器化部署的AI中台解决方案，支持客户数据中心与公有云的灵活资源调度，通过Kubernetes集群实现计算资源隔离和网络微隔离，满足金融级数据不出域要求。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "安全增强套件",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "包含专用防火墙规则配置、入侵检测系统(IDS)定制、安全运维手册等全套工具包，针对医疗、政府等特殊行业提供符合等保2.0三级要求的加固方案。",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/f72aadbf5c62e5b4c305c5f4e7319596be59a458db7c6c83655f0b5af93a56aa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "本地化运维体系",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/51f285bf1dcaa7a301aef1f2a624085c0c677a534cd72912a3fa023f716692e0.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "建立 $7 \\times 2 4$ 小时服务团队，提供从硬件环境检测、系统压力测试到应急响应预案的全流程支持，确保关键业务系统年故障停机时间小于 $0 . 1 \\%$ ",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "05 ",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "技术持续创新",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "研发团队能力保障",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "顶尖人才储备 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "跨学科协作体系",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "硬件算力支撑 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "团队由全球TOP100高校博士领衔，涵盖计算机视觉、自然语言处理、强化学习等12个细分领域专家，每年研发投入占比超营收 $3 0 \\%$ ",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "建立数学、神经科学、心理学等多学科融合的\"T型人才\"协作机制，通过每周技术沙龙的深度交流，持续突破算法瓶颈。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "配备超2000PFlops的分布式计算集群，支持千亿参数模型并行训练，并采用液冷技术将训练能耗降低$4 0 \\%$ 。",
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/85ba1ba247e3d186a940526463f38acd3701a38164ec0e21f45244caf31d698f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/99586db0ad6643e4b16aba74d9fcfae8a561bf827d3de107a4ae8c25c537f263.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/32d814f04a245d67e90139df79d267e84b1c63af7b7114ce95bdfbde5b1b5ad6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "团队负责人",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "王宇光",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "|上海交通大学副教授、博士生导师",
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/ace72c397e13a9eeef84534058b89e18b5bc3c7fb4b45bce27223f9eace91a06.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "学术任职：",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "上海交通大學 ANUEUNSW 上海人工智能实验室SHANGHAI JIAO TONG UNIVER SITY ShanghaiArtificalIntelligenceLaoatory",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "上海交通大学重庆人工智能研究院 $\\mathsf { A l } { + } \\mathsf { X }$ 中心联席主任上海交通大学自然科学研究院、数学科学学院副教授上海人工智能实验室兼职副教授  \n澳大利亚新南威尔士大学兼职副教授",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "2021入选上海海外高层次人才计划 ",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "2023 国际工业与应用数学大会几何深度学习研讨会组委会主席",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "2024 世界顶尖科学家协会顶科智源特邀主讲嘉宾",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "2024 国际图学习大会（LOG）组委会主席",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "研究方向：",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "人工智能的数学基础与AI $+ \\textsf { X }$ 图神经网络、大模型、生成式AI模型研究",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "论文与引用：",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "发表高水平论文70篇，被引用数2600余次2021-2023三次获得ICML，ICLR亮点文章2024 发布国内首个对话式蛋白大模型－ TourSynbio2020ICML优秀审稿人",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "算法迭代升级机制",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "1 ",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "动态评估框架",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "构建包含准确率、鲁棒性、公平性等7维度的自动化评估体系，通过AB测试平台实现模型性能的分钟级监测与预警。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "2 ",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "联邦学习升级",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "采用分布式联邦学习架构，客户数据不出本地即可完成模型优化，确保隐私安全的同时实现算法周均3次迭代。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "3 对抗训练增强 ",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "集成FGSM、PGD等8种对抗样本生成技术，使模型在CVPR竞赛中的对抗攻击防御能力提升 $6 5 \\%$ 。",
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/c4634c7f826ded639351ba8732ac625f367d690cdf38d08f09b1443a3bb78d02.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "创新成果转化路径",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "01 ",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "02 ",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "03 ",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "专利孵化管道",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "产业沙盒机制",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "开源生态建设",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "建立从技术预研到专利申请的标准化流程，已形成 $3 0 0 +$ 核心专利组合，关键技术转化率达 $8 2 \\%$ ",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "与医疗、金融等6大行业共建测试环境，新算法平均6周即可完成场景验证，缩短商业化周期 $5 0 \\%$ 。",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "主导开发PyTorch生态的10个高星开源项目，吸引全球2万 $^ +$ 开发者参与，形成技术反哺闭环。",
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/679db64033d8b0e1e03a0a18086f4243ca20826f7967cb218f2a644ee1cd7107.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/b224967bf7995d6399c1445f90b5323ee5f4ab24381baf3783422de91b6ba340.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "images/de315b64fdc042ffe05f14e512b62969cffc6dc37539c059795a11672ac184d3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "06 ",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "服务实施保障",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "权限分级管控标准",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "多级权限架构设计",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "基于RBAC（基于角色的访问控制）模型，将权限划分为超级管理员、业务管理员、操作员和只读用户四级，通过最小权限原则确保每个角色仅能访问必要的数据和功能模块，防止越权操作。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "动态权限审批机制",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "建立线上审批工作流，涉及敏感操作 (如数据导出、模型训练参数修改)需经双重认证和上级审批，系统自动记录审批日志并同步至审计平台，实现权限变更全程可追溯。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "生物特征融合认证",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "在传统账号密码基础上集成指纹/虹膜识别技术，对核心算法库访问、训练数据调用等高风险操作实施生物特征动态验证，降低账号盗用风险。",
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/84969bed920af356267d8b73a311a952302edb5d91ed122a8996d70e2754831b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/65a27518bdbc35d69ac407e1dc8e1bac0b7a1133a7179becbc904e40a77c92e4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "images/c397a964ce2d3db003870dbf4bd67d9ef96b34b4bae3650aafe344b73f89c767.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "安全审计追踪系统",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "全链路行为日志采集",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "部署分布式日志采集Agent，实时捕获用户操作、API调用、模型推理等行为数据，通过唯会话ID关联前后端操作，形成完整的操作链条，存储周期不低于6个月。",
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "images/c01d2de26cb521599880f1581ecfe3854483957724c09ec2e89eb3135f3c4222.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "智能异常检测引擎",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "基于机器学习算法建立用户行为基线模型，对高频次数据下载、非工作时间登录、异常地理位置访问等行为实时触发告警，准确率可达$9 2 \\%$ 以上，误报率控制在 $5 \\%$ 以内。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "可视化审计分析看板",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "提供时间轴追溯、操作热力图、权限变更图谱等可视化工具，支持按人员/时间/操作类型三维度交叉检索，10秒内可定位特定操作的全上下文信息。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "应急响应预案流程 ",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "分级响应机制",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "将安全事件划分为P0-P3四个等级，P0级（如核心数据泄露）要求15分钟内启动应急小组，2小时内完成初步遏制，24小时出具根因分析报告，同步启动监管部门报备流程。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "红蓝对抗演练体系",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "每季度开展攻防演练，模拟API接口滥用、模型投毒等12类攻击场景，通过实战检验漏洞修复、流量切换、数据回滚等应急措施有效性，演练报告直接呈报技术委员会。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "灾备恢复SLA保障 ",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "建立同城双活 $^ +$ 异地灾备架构，关键业务系统RTO（恢复时间目标）≤15分钟，RPO(恢复点目标) $\\leqslant 5$ 分钟，每月进行备份数据有效性验证，确保数据可恢复率达$9 9 . 9 9 \\%$ 。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "07 ",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "案例&团队荣誉介绍 ",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "案例：AI+电力--电力场景下树障识别与分析",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "针对树障隐患进行分析工作，实现树障分析由人工实地测量到无人机辅助自动量测的转变，提高树障  \n$\\circ$ 分析效率，提升树障分析质量，使用智能科技，保障电网安全。该软件基于图像密集点云匹配和立体  \n$\\circ$ 测图技术，针对输电线路通道进行导线弧垂建模、树障安全距离分析、交叉跨越距离测量。",
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/0b6b20cc29e4a2118d74f7536c454725df46c7f7d1ccce230f7f5a68b9dc67cb.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/b14cc1e65d66c6375c7553df51b57ef1079653bfe5899ca019caaff9ce601934.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/4ae12f1d383407da809ff4b365e66b93552c8bc7b1fcda302a0a55bd741a3e4d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "$\\circ$ 训练、微调、部署针对C端本硕博学生场景的科研大模型助手。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "$\\circ$ 第一期已经交付，目前正在第二期开发和迭代中。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "$\\circ$ 开发总投入：",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "100万元，共7人参与",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "D交付产出：",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "核心算法6套、大模型一个、产品一套、论文两篇",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "沃研Turbo学术工作站",
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "images/79b9f7441d895e578d00e963133a362a0c2272ab1618c7030c10e79fb52a0c3d.jpg",
+        "image_caption": [
+            "案例：AI+医疗－医疗图像分割大模型和软件"
+        ],
+        "image_footnote": [],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "我们针对医疗图像开发了三维的SegmentAnything大模型针对实际场景我们对大模型进行了加速并基于此开发了交互软件",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "案例4： AI+农业 -- 绿茶多模态源",
+        "text_level": 1,
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "来自西湖龙井、碧螺春和黄山毛峰等地区的绿茶因其独特的环境条件创造出与众不同的风味和香气，从而获得更高的价格。然而，行业面临着一个重大挑战：低质量茶叶经常被冒充为来自名贵产地，破坏市场诚信和消费者信任。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "·我们团队开发了一个前沿的鉴定系统，结合电子鼻（e-nose）技术与定制深度学习架构，能够准确识别基于独特香气特征的绿茶产地。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "Electronic nose 00000 o00o Flow controller ",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "关键技术创新：",
+        "text_level": 1,
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "1．电子鼻系统：我们采用PEN3电子鼻，配备交叉敏感气体传感器阵列，捕捉来自六个中国著名产地的绿茶复杂香气特征。  \n2. 自适应气体特征计算模块（AGFCM）：我们设计了一个创新的深度学习模块，它：通过多尺度卷积处理气体信息，捕捉不同传感器和时间间隔之间的关系；采用双重注意力机制（空间和通道）聚焦于最具辨别力的特征；自适应融合信息，强调独特的香气化合物  \n3．轻量级分类网络（AGFC-Net）：我们设计了一种针对电子鼻数据特性优化的高效网络架构，在最大化准确性的同时仅需最少的计算资源。",
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/2080486d66cbfb6d3f0cb2844345ae4752cde0e08b6d1518d72cdf58c40075db.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/60c3a50deebe4e42c856c1ca75823f83643495f29f62085096774b3d9ca06b0c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "images/76987ec1dce76acdd209bca4fe418ef87e2024a56be129abf6bc520f7bb35160.jpg",
+        "image_caption": [
+            "案例： AI+金融－基于大模型的金融场景搜索"
+        ],
+        "image_footnote": [],
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "images/c04687bec72437241e0c1c1474a512c4dc9f00ee6e0896e211822134af0574f0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">Method</td><td colspan=\"4\">Accuracy (%)</td><td colspan=\"5\">Time (s/answer)</td></tr><tr><td>GPT-40</td><td>Llama3.1-405B Claude3.5-SonnetDeepseek Gemini-1.5-Flash</td><td></td><td></td><td>GPT-40</td><td></td><td>Llama3.1-405B Claude3.5-SonnetDeepseek Gemini-1.5-Flash</td><td></td><td></td></tr><tr><td>Baseline</td><td>36.13±1.22</td><td>38.13±1.27</td><td>38.60±1.28</td><td>34.07±1.21</td><td>35.47±1.22</td><td>3.87±0.15</td><td>4.96±0.25</td><td>6.66±0.21</td><td>14.50±0.27 5.04±0.16</td></tr><tr><td>SearchAgent46.33±1.30</td><td></td><td>43.80±1.24</td><td>41.87±1.29</td><td>44.27±1.26</td><td>42.33±1.28 1.58±0.06</td><td>1.61 ±0.07</td><td>1.54 ±0.06</td><td>1.32 ±0.04</td><td>1.58±0.04</td></tr><tr><td>MindSearch</td><td>52.40 ±1.33</td><td>53.07±1.34</td><td>53.60±1.28</td><td>49.73±1.32</td><td>51.53±1.29</td><td>19.09±0.39 14.82±0.45</td><td>17.93±0.39</td><td>27.01±0.58</td><td>20.14±0.43</td></tr><tr><td>Perplexity Pro60.27±1.26</td><td></td><td>61.47±1.28</td><td>56.67±1.24</td><td>1</td><td>1 6.12±0.26</td><td>3.94±0.15</td><td>5.85±0.22</td><td>1</td><td>1</td></tr><tr><td>Ours</td><td>76.20 ±1.12</td><td>75.53±1.08</td><td>78.27±1.07</td><td>72.33 ±1.15</td><td>74.87±1.08 16.03±0.43</td><td>14.55±0.47</td><td>18.15±0.35</td><td>29.31±0.70</td><td>17.74±0.53</td></tr></table>",
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "images/3a9a0697af04f9fb977b12925aefd101977c84a1fa5e4fd7fb500bd586dbdf8a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/c171ffb932163929958c93a7a663a06cbcf8821bc78afa7bdcf2c4ca9a996b98.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "Thank you ",
+        "text_level": 1,
+        "page_idx": 37
+    }
+]

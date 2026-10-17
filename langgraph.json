@@ -1,0 +1,17 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "dependencies": ["."],
+  "graphs": {
+    "retriever0": "./src/agent/retriever0.py:app",
+    "retriever1": "./src/agent/retriever1.py:app",
+    "retriever2": "./src/agent/retriever2.py:app",
+    "retriever3": "./src/agent/retriever3.py:app",
+    "retriever4": "./src/agent/retriever4.py:app",
+    "retriever5": "./src/agent/retriever5.py:app",
+    "retriever6": "./src/agent/retriever6.py:app",
+    "retriever7": "./src/agent/retriever7.py:app",
+    "retriever8": "./src/agent/retriever8.py:app"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}

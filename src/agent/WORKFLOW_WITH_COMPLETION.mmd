@@ -1,0 +1,149 @@
+```mermaid
+graph TD
+    START([开始]) --> A[相关性判断<br/>relevance_check]
+    
+    A -->|相关| B[🆕 问题补全<br/>query_completion<br/><small>补全主谓宾</small>]
+    A -->|不相关| G[生成答案<br/>generate_answer]
+    
+    B --> C[问题改写<br/>rewrite<br/><small>转为陈述句</small>]
+    
+    C --> D[查询路由<br/>query_router<br/><small>判断类型</small>]
+    
+    D -->|产品| E1[ES检索<br/>retriever_elasticsearch<br/><small>产品信息</small>]
+    D -->|公司| E2[Faiss检索<br/>retriever_faiss<br/><small>公司信息</small>]
+    
+    E1 --> F[生成答案<br/>generate_answer_with_retriever<br/><small>基于检索结果</small>]
+    E2 --> F
+    
+    G --> END([结束])
+    F --> END
+    
+    style B fill:#90EE90,stroke:#333,stroke-width:3px
+    style A fill:#FFE4B5,stroke:#333,stroke-width:2px
+    style C fill:#87CEEB,stroke:#333,stroke-width:2px
+    style D fill:#DDA0DD,stroke:#333,stroke-width:2px
+    style E1 fill:#F0E68C,stroke:#333,stroke-width:2px
+    style E2 fill:#F0E68C,stroke:#333,stroke-width:2px
+    style F fill:#98FB98,stroke:#333,stroke-width:2px
+    style G fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style START fill:#E0FFFF,stroke:#333,stroke-width:2px
+    style END fill:#E0FFFF,stroke:#333,stroke-width:2px
+```
+
+## 工作流说明
+
+### 🆕 新增节点：问题补全（query_completion）
+
+**位置**：相关性判断之后、问题改写之前
+
+**功能**：
+- 根据对话历史补全用户输入的主谓宾
+- 处理指代词（如"它"、"这个"等）
+- 补全省略的主语和谓语
+
+**输入**：
+- 当前用户问题
+- 对话历史（最近3轮）
+
+**输出**：
+- 补全后的完整问题
+
+### 节点说明
+
+| 节点 | 功能 | 输入 | 输出 |
+|------|------|------|------|
+| **相关性判断** | 判断问题是否与小米相关 | 用户问题 | 是/不相关 |
+| **🆕 问题补全** | 补全主谓宾，处理指代词 | 问题 + 历史 | 完整问题 |
+| **问题改写** | 转换为陈述句形式 | 完整问题 | 陈述句 |
+| **查询路由** | 判断是产品还是公司查询 | 陈述句 | 产品/公司 |
+| **ES检索** | 检索产品信息 | 查询 | 产品数据 |
+| **Faiss检索** | 检索公司信息 | 查询 | 公司数据 |
+| **生成答案** | 基于检索结果生成答案 | 检索结果 | 最终答案 |
+
+### 示例流程
+
+#### 场景1：首轮完整问题
+
+```
+用户输入："小米15的价格多少？"
+    ↓
+[相关性判断] → 相关
+    ↓
+[问题补全] → "小米15的价格多少？"（无需补全）
+    ↓
+[问题改写] → "小米15的价格"
+    ↓
+[查询路由] → 产品
+    ↓
+[ES检索] → 检索产品信息
+    ↓
+[生成答案] → "小米15的价格为4499元起..."
+```
+
+#### 场景2：使用指代词
+
+```
+用户输入："它有哪些颜色？"
+    ↓
+[相关性判断] → 相关
+    ↓
+[问题补全] → "小米15有哪些颜色？"（从历史中提取"小米15"）
+    ↓
+[问题改写] → "小米15的颜色选项"
+    ↓
+[查询路由] → 产品
+    ↓
+[ES检索] → 检索产品信息
+    ↓
+[生成答案] → "小米15有以下颜色可选：..."
+```
+
+#### 场景3：省略主语
+
+```
+用户输入："内存配置呢？"
+    ↓
+[相关性判断] → 相关
+    ↓
+[问题补全] → "小米15的内存配置有哪些？"（补全主语和谓语）
+    ↓
+[问题改写] → "小米15的内存配置"
+    ↓
+[查询路由] → 产品
+    ↓
+[ES检索] → 检索产品信息
+    ↓
+[生成答案] → "小米15提供以下内存配置：..."
+```
+
+### 与之前版本的对比
+
+#### retriever7.py（之前）
+
+```
+START → relevance_check → rewrite → query_router → retriever → generate_answer → END
+```
+
+#### retriever8.py（现在）
+
+```
+START → relevance_check → query_completion → rewrite → query_router → retriever → generate_answer → END
+                              👆 新增节点
+```
+
+### 关键改进
+
+1. **问题补全节点**：自动处理指代词和省略
+2. **历史上下文利用**：每个步骤都能访问历史
+3. **动态消息查找**：通过 tool_call_id 精确定位
+4. **Verbose 模式**：可查看每个步骤的处理结果
+
+### 查看详细信息
+
+- 功能文档：`QUERY_COMPLETION_FEATURE.md`
+- 更新日志：`CHANGELOG_QUERY_COMPLETION.md`
+- 快速开始：`MULTI_TURN_QUICK_START.md`
+- 源代码：`retriever8.py`
+
+
+
