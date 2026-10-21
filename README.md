@@ -1,6 +1,6 @@
-# 小米智能问答系统
+# 智能问答系统
 
-基于 FastAPI、LangGraph 和 Next.js 的小米 RAG 问答项目。支持多轮问题补全、相关性判断、问题改写和查询路由：公司信息使用 FAISS 检索，产品信息使用 Elasticsearch 检索，通义千问生成答案。
+基于 FastAPI、LangGraph 和 Next.js 的 RAG 问答项目。支持多轮问题补全、相关性判断、问题改写和查询路由：公司信息使用 FAISS 检索，产品信息使用 Elasticsearch 检索，通义千问生成答案。
 
 ## 组件
 
